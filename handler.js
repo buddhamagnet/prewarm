@@ -6,7 +6,6 @@ let payload = '{"Records":[{"eventVersion":"2.0","eventSource":"aws:s3","awsRegi
 
 // Mock s3.headObject.
 function headObject(options, callback) {
-  console.log(options);
   callback(false, {"Metadata": {"cacheTargets": "/lists/decimate"}});
 }
 
