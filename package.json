@@ -1,0 +1,8 @@
+{
+	"name": "prewarm",
+	"version": "0.0.1",
+	"description": "prewarmer from the future",
+	"dependencies": {
+		"aws-sdk": "~2.7.13"
+	}
+}
